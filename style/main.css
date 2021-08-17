@@ -47,5 +47,27 @@ header nav a:hover{
 /*CONTEÚDO PRINCIPAL*/
 
 .info-principal{
+    height: 675px;
 
+    background: url('../img/fundo-principal.jpg');
+    background-size: cover;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+    position: relative;
+    top:0;
+    left: 0;
+
+}
+
+.info-principal .titulo{
+    font-size: 40px;
+}
+
+.info-principal .container{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(0, 91, 162,0.8);
 }
