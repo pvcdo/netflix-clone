@@ -1,0 +1,51 @@
+/*GERAL*/
+
+:root{ /*declaração de variáveis no css, estamos aqui declarando na raiz do documento.*/
+    --azul-fundo: #000127 ;
+    --meio-cinza: #AAA ;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; /*os elementos respeitarão os limites de largura estabelecidos e não irão forçar um aumento em função do conteúdo*/
+}
+
+body{
+    background-color: var(--azul-fundo); /*utilização da cor declarada como variável*/
+    color: var(--meio-cinza);
+}
+
+/*CABEÇALHO*/
+
+header .container{
+    /*todas as configurações se aplicam aos filhos de .container*/
+        display: flex; /*indica como será a disposição dos elementos*/
+        flex-direction: row; /*este é o padrão de flex*/
+        align-items: center; /*alinhamento perpendicular à direção do flex*/
+        justify-content: space-between; /*espaçamento ou alinhamento paralelos à direção do flex entre os elementos*/
+    /**/
+}
+
+header .logo{
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+    color: white;
+}
+
+header nav a{
+    color: var(--meio-cinza);
+    text-decoration: none;
+    margin-right: 10px ;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+/*CONTEÚDO PRINCIPAL*/
+
+.info-principal{
+
+}
