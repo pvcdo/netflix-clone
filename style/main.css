@@ -104,3 +104,12 @@ header nav a:hover{
 .info-principal .botoes button i{
     margin-right: 8px;
 }
+
+.carousel-container{
+    margin-top: 10px;
+}
+
+.box-item{
+    width: 150px;
+    height: 255px;
+}
