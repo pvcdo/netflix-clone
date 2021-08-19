@@ -1,0 +1,25 @@
+@media screen and (max-width: 519px) {
+    .info-principal .container{
+        height: 370px;
+    }
+    .info-principal .container h3{
+        font-size: 2em;
+    }
+    .info-principal .container p{
+        font-size: 0;
+    }
+
+    .info-principal .botoes button{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 520px) and (max-width: 800px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

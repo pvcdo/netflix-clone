@@ -46,7 +46,7 @@ header nav a:hover{
 }
 
 .container{
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 /*CONTEÚDO PRINCIPAL*/
@@ -75,7 +75,6 @@ header nav a:hover{
     font-size: 20px;
     margin-top: 20px;
 }
-
 
 .info-principal .container{
     position: absolute;
