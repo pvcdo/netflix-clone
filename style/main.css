@@ -14,6 +14,7 @@
 body{
     background-color: var(--azul-fundo); /*utilização da cor declarada como variável*/
     color: var(--meio-cinza);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*CABEÇALHO*/
@@ -44,10 +45,14 @@ header nav a:hover{
     color: #FFF;
 }
 
+.container{
+    padding-left: 20px;
+}
+
 /*CONTEÚDO PRINCIPAL*/
 
 .info-principal{
-    height: 675px;
+    height: 500px;
 
     background: url('../img/fundo-principal.jpg');
     background-size: cover;
@@ -63,11 +68,39 @@ header nav a:hover{
 
 .info-principal .titulo{
     font-size: 40px;
+    margin-top: 20px;
 }
+
+.info-principal .descricao{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 
 .info-principal .container{
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 0;
-    background-color: rgba(0, 91, 162,0.8);
+    background-color: rgba(0, 75, 133, 0.8);
+    width: 70%;
+    margin-left: 20px;
+}
+
+.info-principal .botoes button{
+    background-color: rgba(0, 1, 39,0.6);
+    padding: 10px;
+    margin: 20px 10px 20px 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.65s;
+}
+
+.info-principal .botoes button:hover{
+    color: rgba(0, 1, 39);
+    background-color: white;
+}
+
+.info-principal .botoes button i{
+    margin-right: 8px;
 }
