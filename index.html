@@ -24,51 +24,47 @@
         <div class="container">
             <h2 class="logo">ZÊROFLIX</h2>
             <nav>
-                <a href="#">Início</a>
-                <a href="#">Jogos</a>
-                <a href="#">Notícias</a>
-                <a href="#">Documentários</a>
-                <a href="#">Entrevistas</a>
-                <a href="#">Bastidores</a>
+                <a href="https://www.cruzeiro.com.br/jogos" target="_blank">Jogos</a>
+                <a href="https://www.google.com/search?q=cruzeiro&tbm=nws" target="_blank">Notícias</a>
+                <a href="https://www.youtube.com/results?search_query=documentario+cruzeiro+esporte+clube" target="_blank">Documentários</a>
+                <a href="#" target="_blank">Entrevistas</a>
+                <a href="bastidores.html" target="">Bastidores</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="info-principal">
-            <div class="container"><!-- apenas essa div, que é filha da info-principal é afetada pelo display: flex -->
-                <!-- colocar a imagem de fundo
+            <div class="info-principal">
+                <div class="container">
+                    
+                    <!-- apenas essa div, que é filha da info-principal, é afetada pelo display: flex-->
 
-                colocar um painel para amenizar a cor da imagem de fundo
-
-                colocar os botões assistir agora e mais informações, com a prop role="button"
-
-                distanciar a .descricao dos botões
-
-                estilizar os botões
-
-                procurar meu fontawesome e colocar nos meus botões -->
-
-                <h3 class="titulo">DOCUMENTÁRIO | EM BUSCA DA HISTÓRIA DO CRUZEIRO</h3>
-                <p class="descricao">De Palestra a Cruzeiro, a história de um time de operários que se tornou uma das maiores sociedades esportivas do mundo!</p>
-                <div class="botoes"> 
-                    <button role="button">
-                        <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
-                    <button role="button">
-                        <i class="fas fa-save"></i>
-                        ASSISTIR DEPOIS
-                    </button>
+                    <h3 class="titulo">DOCUMENTÁRIO | EM BUSCA DA HISTÓRIA DO CRUZEIRO</h3>
+                    <p class="descricao">De Palestra a Cruzeiro, a história de um time de operários que se tornou uma das maiores sociedades esportivas do mundo!</p>
+                    <div class="botoes"> 
+                        <a href="https://www.youtube.com/embed/q67VTbH3tzo" target="_blank">
+                            <button role="button">
+                                <i class="fas fa-play"></i>
+                                ASSISTIR AGORA
+                            </button>
+                        </a>
+                        <button role="button" onclick="salvarPrincipal()">
+                            <span id='salvar-principal' class="">
+                                <i class="fas fa-save"></i>
+                            </span>
+                            ASSISTIR DEPOIS
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
     </main>
 
     <div class="carousel-container">
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-item" src="img/cruzeiro1.jpg" alt="">
+                <a href="">
+                    <img class="box-item" src="img/cruzeiro1.jpg" alt="">
+                </a>
             </div>
             <div class="item">
                 <img class="box-item" src="img/cruzeiro2.jpg" alt="">
@@ -106,7 +102,8 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup-owl.js"></script>
-        
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>

@@ -85,6 +85,10 @@ header nav a:hover{
     margin-left: 20px;
 }
 
+.icone-botao-salvar{
+    color:red;
+}
+
 .info-principal .botoes button{
     background-color: rgba(0, 1, 39,0.6);
     padding: 10px;
@@ -111,4 +115,28 @@ header nav a:hover{
 .box-item{
     width: 150px;
     height: 255px;
+}
+
+/*CONTAINER-CONSTRUCAO*/
+.construcao{
+    margin-top: 12%;
+}
+
+.construcao .container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 35px;
+}
+
+.construcao .container img{
+    max-width: 400px;
+    min-width: 215px;
+    width: 50%;
+}
+
+.construcao .container a{
+    display: block;
+    margin-top: 80px;
+    text-decoration: none;
 }
