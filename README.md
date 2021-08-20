@@ -1,4 +1,4 @@
-#Zêroflix
+# Zêroflix
 
 Este projeto faz parte da trajetória do bootcamp da LocalizaLabs React Developer oferecido pela Digital Innovation One.
 
